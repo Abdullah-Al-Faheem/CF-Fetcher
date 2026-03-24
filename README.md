@@ -11,13 +11,13 @@ A Firefox extension to quickly view friends’ accepted submissions on Codeforce
 3. Select `manifest.json`
 
 ## Usage
-1. Open Codeforces
-2. Enter a problem page
-3. click on the extension icon to view accepted solutions of friends
+1. Open a Codeforces problem page in Firefox
+2. Click the extension icon in the toolbar
+3. You will be redirected to the problem's status page filtered to show friends' submissions
 
 ## Tech
-- JavaScript, HTML/CSS
-- Firefox WebExtensions API
+- JavaScript (background script)
+- Firefox WebExtensions API (manifest v2)
 
 ## Acknowledgements
 Built with assistance from ChatGPT.
