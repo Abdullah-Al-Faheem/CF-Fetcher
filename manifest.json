@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "CF Friends Fetcher",
+    "version": "1.0",
+    "description": "Redirects to Codeforces status page with friends filter.",
+    "permissions": ["tabs", "activeTab"],
+    "background": 
+    {
+      "scripts": ["app.js"]
+    },
+    "browser_action": 
+    {
+      "default_title": "Go to Status Page",
+      "default_icon": "icon.png"
+    },
+    "icons": 
+    {
+      "48": "icon.png"
+    }
+  }
